@@ -2,6 +2,10 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+input[type=text]:focus {
+  background-color: aquamarine;
+}
+
 
 /* MEDIA QUERY */
 
