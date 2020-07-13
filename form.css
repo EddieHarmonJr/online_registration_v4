@@ -6,6 +6,10 @@ input[type=text]:focus {
   background-color: aquamarine;
 }
 
+button {
+  background-color: aquamarine;
+}
+
 
 /* MEDIA QUERY */
 

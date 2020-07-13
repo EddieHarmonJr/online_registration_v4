@@ -13,8 +13,9 @@
 
   <form action="index.html" method="post">
 
-    <h3>Contact Information</h3>
     <fieldset>
+    <legend>Contact Information</legend>
+
     <label for="name">Full Name</label>
     <input type="text" id="name" name="user_name" placeholder="Required">
 
@@ -23,6 +24,8 @@
 
     <label for="phone">Phone Number</label>
     <input type="tel" id="phone" name="user_phone">
+
+    <!-- Unsure why this isn't working? pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" -->
 
     <label for="address">Street Address</label>
     <input type="text" id="address" name="user_address">
@@ -91,7 +94,9 @@
   </fieldset>
 
   <fieldset>
-    <label for="">Select the newsletters you'd like to recieve</label>
+    <legend>Newsletter</legend>
+    <p>Select the newsletters you'd like to recieve</p>
+    <!-- <label for="">Select the newsletters you'd like to recieve</label> -->
     <input type="checkbox" id="html_news" value="HTML News" name="user_newsletter">
     <input type="checkbox" id="css_news" value="CSS News" name="user_newsletter">
     <input type="checkbox" id="javascript_news" value="Javascript News" name="user_newsletter">
