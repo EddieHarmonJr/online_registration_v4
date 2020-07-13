@@ -10,11 +10,13 @@
 <body>
 
   <form action="index.html" method="post">
+
+    <h3>Contact Information</h3>
     <label for="name">Full Name</label>
-    <input type="text" id="name" name="user_name">
+    <input type="text" id="name" name="user_name" placeholder="Required">
 
     <label for="mail">Email Address</label>
-    <input type="email" id="mail" name="user_email">
+    <input type="email" id="mail" name="user_email" placeholder="Required">
 
     <label for="phone">Phone Number</label>
     <input type="tel" id="phone" name="user_phone">
@@ -25,9 +27,6 @@
     <label for="city">City</label>
     <input type="text" id="city" name="user_city">
 
-
-    <label for=""></label>
-    <input type="radio" id="" name="">
 
     <label for="state">State</label>
     <select name="" id="state">
@@ -90,11 +89,17 @@
     <label for=""></label>
     <input type="checkbox" id="" name="">
 
-    <label for=""></label>
+    <label for="html">HTML</label>
+    <input type="radio" id="html" value="html" name="user_format">
+
+    <label for="plain_text">Plain Text</label>
+    <input type="radio" id="plain_text" value="Plain Text" name="user_format">
+
+    <label for="">Other topics you'd like to hear about</label>
     <input type="textarea" id="" name="">
 
     <br>
-        
+
     <label for=""></label>
     <button type="submit">Sign Up</button>
   </form>
