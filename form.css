@@ -2,8 +2,23 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_section {
+  display: flex;
+  flex-direction: column;
+}
+
 input[type=text]:focus {
   background-color: aquamarine;
+}
+
+input,
+select {
+  background-color: whitesmoke;
 }
 
 button {
