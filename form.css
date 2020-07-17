@@ -17,6 +17,11 @@ input[type=text]:focus {
   background-color: aquamarine;
 }
 
+/* input[type=radio] {
+  display: flex;
+  flex-direction: column;
+} */
+
 input,
 select {
   background-color: whitesmoke;
