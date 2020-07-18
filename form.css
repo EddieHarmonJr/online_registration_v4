@@ -60,6 +60,7 @@ input[type=number] {
 
 ::-moz-placeholder { /* Firefox 19+ */
   text-indent: 200px;
+  /* color: gainsboro; */
 }
 :-ms-input-placeholder { /* IE 10+ */
   text-indent: 200px;
@@ -84,8 +85,12 @@ input[type=textarea] {
   border: none;
 }
 
+label {
+  color: grey;
+}
+
 button {
-  background-color: aquamarine;
+  background-color: #40E0D0;
   width: 100%;
   height: 50px;
   border-radius: 5px;
