@@ -17,7 +17,19 @@ body {
 h2 {
   color: white;
   background-color: slategray;
+  /* padding needs adjustment */
+  padding: 45px;
   /* width: 100%; */
+}
+
+/* Add top and bottom spacing between labels and fields using child selectors. */
+fieldset > label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.intro_paragraph {
+  text-align: center;
 }
 
 .contact_section,
@@ -89,7 +101,7 @@ label {
   color: grey;
 }
 
-.newsletter_types {
+.newsletter_types_and_formats {
   margin-left: 10px;
 }
 
@@ -104,6 +116,10 @@ button {
   border-radius: 5px;
   border: none;
   color: white;
+}
+
+.copyright {
+  text-align: center;
 }
 
 
