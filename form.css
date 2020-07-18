@@ -89,6 +89,14 @@ label {
   color: grey;
 }
 
+.newsletter_types {
+  margin-left: 10px;
+}
+
+p {
+  color: #808080;
+}
+
 button {
   background-color: #40E0D0;
   width: 100%;
