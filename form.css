@@ -17,10 +17,15 @@ input[type=text]:focus {
   background-color: aquamarine;
 }
 
-/* input[type=radio] {
+input[type=radio] {
   display: flex;
   flex-direction: column;
-} */
+}
+
+.radio_row {
+  display: flex;
+  flex-direction: row;
+}
 
 input,
 select {
