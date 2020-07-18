@@ -52,6 +52,12 @@ select {
   background-color: whitesmoke;
 }
 
+input[type=textarea] {
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+}
+
 button {
   background-color: aquamarine;
   width: 100%;
