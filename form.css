@@ -40,6 +40,11 @@ input[type=tel],
 input[type=textarea],
 select {
   width: 100%;
+  border: none;
+}
+
+input[type=number] {
+  border: none;
 }
 
 .radio_checkbox_row {
