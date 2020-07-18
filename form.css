@@ -28,6 +28,10 @@ fieldset > label {
   margin-top: 15px;
 }
 
+.radio_checkbox_row > label {
+  margin-bottom: 15px;
+}
+
 .intro_paragraph {
   text-align: center;
 }
