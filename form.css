@@ -24,8 +24,8 @@ h2 {
 
 /* Add top and bottom spacing between labels and fields using child selectors. */
 fieldset > label {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .intro_paragraph {
