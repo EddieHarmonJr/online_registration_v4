@@ -2,15 +2,25 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-form {
+.container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+/* form {
+  display: flex;
+  flex-direction: column;
+} */
 
+h2 {
+  color: white;
+  background-color: slategray;
+}
 
-.contact_section
-{
+.contact_section,
+.newsletter_section {
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +34,15 @@ input[type=radio] {
   flex-direction: column;
 }
 
-.radio_row {
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=textarea],
+select {
+  width: 100%;
+}
+
+.radio_checkbox_row {
   display: flex;
   flex-direction: row;
 }
