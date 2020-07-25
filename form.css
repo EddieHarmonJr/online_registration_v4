@@ -144,19 +144,37 @@ button {
     flex-direction: row;
   }
 
+  /* .container {
+
+  } */
+
+form {
+  width: 60vw;
+}
+
+/* fieldset > label {
+  border: 2px solid red;
+  margin-right: 50px;
+  margin-bottom: 15px;
+} */
+
   /* * {
     border: 2px solid red;
   } */
+
+
 
   /* input {
     border: 2px solid blue;
   } */
 
 
+
   /* body {
     width: auto;
     display: flex;
   } */
+
 
 
   /* .contact_section > input {
