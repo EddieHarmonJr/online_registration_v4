@@ -21,86 +21,100 @@
       <fieldset class="contact_section">
         <legend>Contact Information</legend>
 
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="user_name" placeholder="Required">
+        <div class="input_field_sections">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="user_name" placeholder="Required">
+        </div>
 
-        <label for="mail">Email Address</label>
-        <input type="email" id="mail" name="user_email" placeholder="Required">
+        <div class="input_field_sections">
+          <label for="mail">Email Address</label>
+          <input type="email" id="mail" name="user_email" placeholder="Required">
+        </div>
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="user_phone">
-
+        <div class="input_field_sections">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="user_phone">
+        </div>
         <!-- Unsure why this isn't working? pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" -->
         <!-- https://www.w3schools.com/tags/att_input_type_tel.asp -->
 
-        <label for="address">Street Address</label>
-        <input type="text" id="address" name="user_address">
+        <div class="input_field_sections">
+          <label for="address">Street Address</label>
+          <input type="text" id="address" name="user_address">
+        </div>
 
-        <label for="city">City</label>
-        <input type="text" id="city" name="user_city">
 
+        <div class="input_field_sections">
+          <label for="city">City</label>
+          <input type="text" id="city" name="user_city">
+        </div>
 
-        <label for="state">State</label>
-        <select name="" id="state">
-          <option value="" disabled selected hidden>Choose State</option>
-          <option value="AL">Alabama</option>
-          <option value="AK">Alaska</option>
-          <option value="AZ">Arizona</option>
-          <option value="AR">Arkansas</option>
-          <option value="CA">California</option>
-          <option value="CO">Colorado</option>
-          <option value="CT">Connecticut</option>
-          <option value="DE">Delaware</option>
-          <option value="DC">District Of Columbia</option>
-          <option value="FL">Florida</option>
-          <option value="GA">Georgia</option>
-          <option value="HI">Hawaii</option>
-          <option value="ID">Idaho</option>
-          <option value="IL">Illinois</option>
-          <option value="IN">Indiana</option>
-          <option value="IA">Iowa</option>
-          <option value="KS">Kansas</option>
-          <option value="KY">Kentucky</option>
-          <option value="LA">Louisiana</option>
-          <option value="ME">Maine</option>
-          <option value="MD">Maryland</option>
-          <option value="MA">Massachusetts</option>
-          <option value="MI">Michigan</option>
-          <option value="MN">Minnesota</option>
-          <option value="MS">Mississippi</option>
-          <option value="MO">Missouri</option>
-          <option value="MT">Montana</option>
-          <option value="NE">Nebraska</option>
-          <option value="NV">Nevada</option>
-          <option value="NH">New Hampshire</option>
-          <option value="NJ">New Jersey</option>
-          <option value="NM">New Mexico</option>
-          <option value="NY">New York</option>
-          <option value="NC">North Carolina</option>
-          <option value="ND">North Dakota</option>
-          <option value="OH">Ohio</option>
-          <option value="OK">Oklahoma</option>
-          <option value="OR">Oregon</option>
-          <option value="PA">Pennsylvania</option>
-          <option value="RI">Rhode Island</option>
-          <option value="SC">South Carolina</option>
-          <option value="SD">South Dakota</option>
-          <option value="TN">Tennessee</option>
-          <option value="TX">Texas</option>
-          <option value="UT">Utah</option>
-          <option value="VT">Vermont</option>
-          <option value="VA">Virginia</option>
-          <option value="WA">Washington</option>
-          <option value="WV">West Virginia</option>
-          <option value="WI">Wisconsin</option>
-          <option value="WY">Wyoming</option>
-        </select>
+        <div class="input_field_sections">
+          <label for="state">State</label>
+          <select name="user_state" id="state">
+            <option value="" disabled selected hidden>Choose State</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </select>
+        </div>
 
-        <label for="zipcode">Zipcode</label>
-        <input type="number" id="zipcode" name="user_zipcode">
+        <div class="input_field_sections">
+          <label for="zipcode">Zipcode</label>
+          <input type="number" id="zipcode" name="user_zipcode">
+        </div>
+
       </fieldset>
 
-<!-- NEWSLETTER SECTION -->
+      <!-- NEWSLETTER SECTION -->
 
       <fieldset class="newsletter_section">
         <legend>Newsletter</legend>
@@ -114,8 +128,8 @@
         </div>
 
         <div class="radio_checkbox_row">
-        <input type="checkbox" id="css_news" value="CSS News" name="user_newsletter">
-        <label class="newsletter_types_and_formats" for="css_news">CSS News</label>
+          <input type="checkbox" id="css_news" value="CSS News" name="user_newsletter">
+          <label class="newsletter_types_and_formats" for="css_news">CSS News</label>
           <br>
         </div>
 
@@ -140,13 +154,15 @@
 
         <p>Other topics you'd like to hear about</p>
         <input type="textarea" id="topics" name="user_topics">
+        <label for="topics"></label>
 
         <br>
 
         <button type="submit">Sign Up</button>
         <p class="copyright">Copyright The Code Review</p>
       </fieldset>
-      </form>
-      </div>
-    </body>
+    </form>
+  </div> <!-- </div> container div closing tag -->
+</body>
+
 </html>

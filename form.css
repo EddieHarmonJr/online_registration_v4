@@ -98,7 +98,7 @@ select {
 input[type=textarea] {
   height: 100px;
   border-radius: 5px;
-  border: none;
+  /* border: none; */
 }
 
 label {
@@ -130,8 +130,38 @@ button {
 }
 
 
+
 /* MEDIA QUERY */
 
-/* @media (min-width: 768px) {
-  
-} */
+@media (min-width: 768px) {
+  .contact_section > label {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .input_field_sections {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* * {
+    border: 2px solid red;
+  } */
+
+  /* input {
+    border: 2px solid blue;
+  } */
+
+
+  /* body {
+    width: auto;
+    display: flex;
+  } */
+
+
+  /* .contact_section > input {
+    
+  } */
+
+
+}
