@@ -22,6 +22,10 @@ h2 {
   /* width: 100%; */
 }
 
+fieldset {
+  border: none;
+}
+
 /* Add top and bottom spacing between labels and fields using child selectors. */
 fieldset > label {
   margin-bottom: 15px;
