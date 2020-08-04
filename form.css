@@ -144,9 +144,17 @@ button {
     flex-direction: row;
   }
 
-  /* .container {
 
-  } */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+ 
+  h3 {
+    justify-content: center;
+  }
 
 form {
   width: 60vw;
