@@ -142,6 +142,7 @@ button {
   .input_field_sections {
     display: flex;
     flex-direction: row;
+    padding-bottom: 20px;
   }
 
 
