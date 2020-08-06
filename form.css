@@ -159,6 +159,7 @@ button {
   h2{
     width:100%;
     text-align: center;
+    height: 10px;
   } 
  
   h3 {
@@ -167,10 +168,12 @@ button {
 
 form {
   width: 60vw;
+  border-top: 10px double black;
+  padding-top: 50px;
 }
 
 .intro_paragraph {
-  border-bottom: 5px double black;
+  /* border-bottom: 5px double black; */
   padding-bottom: 50px;
 }
 
