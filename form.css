@@ -173,6 +173,19 @@ form {
   padding-bottom: 50px;
 }
 
+.input_field_sections > label {
+  margin-right: 20px;
+}
+
+/* input[type=text],
+input[type=email],
+input[type=tel],
+input[type=textarea],
+input[type=number] {
+  margin-left: 20px;
+} */
+
+
 /* .contact_section {
   border-top: 2px solid black;
 } */
