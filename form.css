@@ -185,6 +185,12 @@ span {
   white-space: nowrap;
 }
 
+.form_breakpoint {
+  border-top: 2px solid black;
+  margin-bottom: 50px;
+}
+
+
 /* input[type=text],
 input[type=email],
 input[type=tel],
