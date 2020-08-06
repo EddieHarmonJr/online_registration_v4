@@ -133,6 +133,7 @@ button {
   margin-top: 20px;
 }
 
+/* -------------------------------------------------------------------------------------------- */
 
 
 /* MEDIA QUERY */
@@ -177,6 +178,10 @@ form {
   margin-right: 20px;
 }
 
+span {
+  white-space: nowrap;
+}
+
 /* input[type=text],
 input[type=email],
 input[type=tel],
@@ -218,6 +223,21 @@ input[type=number] {
   /* .contact_section > input {
     
   } */
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-indent: 250px;
+  }
+  
+  ::-moz-placeholder { /* Firefox 19+ */
+    text-indent: 250px;
+    /* color: gainsboro; */
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    text-indent: 250px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    text-indent: 250px;
+  }
 
 
 }
