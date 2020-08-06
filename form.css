@@ -160,10 +160,13 @@ button {
     width:100%;
     text-align: center;
     height: 10px;
+    margin-bottom: 25px;
   } 
  
   h3 {
     justify-content: center;
+    margin-bottom: -10px;
+    font-size: x-large;
   }
 
 form {
