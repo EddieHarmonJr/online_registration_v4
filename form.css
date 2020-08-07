@@ -184,6 +184,10 @@ form {
   margin-right: 20px;
 }
 
+
+/* Allows labels to appear on single line
+https://www.digitalocean.com/community/tutorials/css-prevent-line-break */
+
 span {
   white-space: nowrap;
 }
@@ -191,6 +195,10 @@ span {
 .form_breakpoint {
   border-top: 2px solid black;
   margin-bottom: 50px;
+}
+
+.first_input {
+  margin-top: 25px;
 }
 
 
