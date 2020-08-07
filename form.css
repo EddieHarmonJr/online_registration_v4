@@ -197,6 +197,11 @@ form {
   margin-right: 20px;
 }
 
+textarea {
+  background-color: whitesmoke;
+  border: none;
+}
+
 
 /* Allows labels to appear on single line
 https://www.digitalocean.com/community/tutorials/css-prevent-line-break */
