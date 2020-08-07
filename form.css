@@ -46,6 +46,10 @@ fieldset > label {
   flex-direction: column;
 }
 
+.first_input {
+  margin-top: 25px;
+}
+
 input[type=text]:focus {
   background-color: aquamarine;
 }
@@ -138,6 +142,10 @@ button {
 
 /* MEDIA QUERY */
 
+/* * {
+  border: 2px solid red ;
+} */
+
 @media (min-width: 768px) {
   .contact_section > label {
     display: flex;
@@ -197,9 +205,9 @@ span {
   margin-bottom: 50px;
 }
 
-.first_input {
+/* .first_input {
   margin-top: 25px;
-}
+} */
 
 
 /* input[type=text],
