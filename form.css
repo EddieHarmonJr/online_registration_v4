@@ -134,6 +134,11 @@ p {
   color: #808080;
 }
 
+textarea {
+  background-color: whitesmoke;
+  border: none;
+}
+
 button {
   background-color: #40E0D0;
   width: 100%;
@@ -197,11 +202,14 @@ form {
   margin-right: 20px;
 }
 
-textarea {
-  background-color: whitesmoke;
-  border: none;
-}
-
+/* input[type=text],
+input[type=email],
+input[type=tel],
+input[type=textarea],
+input[type=number],
+select { 
+  border: 2px solid red ;
+} */
 
 /* Allows labels to appear on single line
 https://www.digitalocean.com/community/tutorials/css-prevent-line-break */
