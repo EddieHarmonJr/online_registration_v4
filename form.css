@@ -22,6 +22,11 @@ h2 {
   /* width: 100%; */
 }
 
+form {
+  border-top: 10px double black;
+  padding-top: 50px;
+}
+
 fieldset {
   border: none;
 }
@@ -184,8 +189,8 @@ button {
 
 form {
   width: 60vw;
-  border-top: 10px double black;
-  padding-top: 50px;
+  /* border-top: 10px double black;
+  padding-top: 50px; */
 }
 
 .intro_paragraph {
