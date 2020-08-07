@@ -109,6 +109,11 @@ input[type=textarea] {
   /* border: none; */
 }
 
+.form_breakpoint {
+  border-top: 2px solid black;
+  margin-bottom: 50px;
+}
+
 label {
   color: grey;
 }
@@ -200,10 +205,10 @@ span {
   white-space: nowrap;
 }
 
-.form_breakpoint {
+/* .form_breakpoint {
   border-top: 2px solid black;
   margin-bottom: 50px;
-}
+} */
 
 /* .first_input {
   margin-top: 25px;
