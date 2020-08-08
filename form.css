@@ -210,6 +210,7 @@ input[type=textarea],
 input[type=number],
 select { 
   border: 2px solid red ;
+  margin-left: 50px;
 } */
 
 /* Allows labels to appear on single line
