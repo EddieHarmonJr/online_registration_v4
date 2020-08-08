@@ -16,10 +16,25 @@ h2 {
   padding: 45px;
 }
 
-form {
+/* Create double border near top of form */
+
+.top_line {
+  height: 4px;
+  background-color: black;
+}
+
+.bottom_line {
+  height: 1px;
+  background-color: black; 
+  margin-top: -5px;
+}
+
+/* Alternate double border style */
+
+/* form {
   border-top: 10px double black;
   padding-top: 50px;
-}
+} */
 
 fieldset {
   border: none;
