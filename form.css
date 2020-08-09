@@ -16,6 +16,10 @@ h2 {
   padding: 45px;
 }
 
+form {
+  background-color: rgb(189, 248, 243);
+}
+
 /* Create double border near top of form */
 
 .top_line {
@@ -220,7 +224,6 @@ button {
 
   form {
     width: 60vw;
-    background-color: rgb(189, 248, 243);
   }
 
   .intro_paragraph {
