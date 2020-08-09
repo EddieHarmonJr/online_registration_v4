@@ -128,6 +128,7 @@ input[type=number] {
   flex-direction: row;
 }
 
+
 input,
 select {
   background-color: whitesmoke;
@@ -259,25 +260,31 @@ https://www.digitalocean.com/community/tutorials/css-prevent-line-break */
 
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    text-indent: 650px;
-    position: sticky;
-    right: 0;
+    text-indent: 250px;
+    text-align: right;
+    padding-right: 25px;
   }
 
   ::-moz-placeholder {
     /* Firefox 19+ */
     text-indent: 250px;
+    text-align: right;
+    padding-right: 25px;
     /* color: gainsboro; */
   }
 
   :-ms-input-placeholder {
     /* IE 10+ */
     text-indent: 250px;
+    text-align: right;
+    padding-right: 25px;
   }
 
   :-moz-placeholder {
     /* Firefox 18- */
     text-indent: 250px;
+    text-align: right;
+    padding-right: 25px;
   }
 
 }
