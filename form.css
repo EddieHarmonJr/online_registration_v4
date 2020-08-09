@@ -157,8 +157,13 @@ p {
 
 textarea {
   background-color: whitesmoke;
+  transition: 2s ease-in-out;
   border: none;
   width: 100%;
+}
+
+textarea:hover {
+  background-color: violet;
 }
 
 button {
@@ -243,10 +248,7 @@ button {
     flex-basis: 25%;
   }
 
-  textarea:hover {
-    transition: 2s ease-in-out;
-    background-color: violet;
-  }
+
 
   /* Allows labels to appear on single line
 https://www.digitalocean.com/community/tutorials/css-prevent-line-break */
@@ -257,7 +259,9 @@ https://www.digitalocean.com/community/tutorials/css-prevent-line-break */
 
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    text-indent: 250px;
+    text-indent: 650px;
+    position: sticky;
+    right: 0;
   }
 
   ::-moz-placeholder {
