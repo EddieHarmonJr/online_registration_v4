@@ -218,15 +218,24 @@ form {
   margin-right: 20px;
 }
 
-/* input[type=text],
+/* Lines below give a uniform look to the spacing for labels and input fields. */
+
+label {
+  flex-basis: 25%;
+  margin-top: 25px;
+}
+
+input[type=text],
 input[type=email],
 input[type=tel],
 input[type=textarea],
-input[type=number],
 select { 
-  border: 2px solid red ;
-  margin-left: 50px;
-} */
+  flex-basis: 75%;
+}
+
+input[type=number] {
+  flex-basis: 25%;
+}
 
 /* Allows labels to appear on single line
 https://www.digitalocean.com/community/tutorials/css-prevent-line-break */
