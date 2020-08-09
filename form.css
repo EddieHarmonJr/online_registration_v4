@@ -216,13 +216,13 @@ form {
 
 .input_field_sections > label {
   margin-right: 20px;
+  margin-top: 25px;
 }
 
 /* Lines below give a uniform look to the spacing for labels and input fields. */
 
 label {
   flex-basis: 25%;
-  margin-top: 25px;
 }
 
 input[type=text],
